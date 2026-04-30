@@ -3,7 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/translate-api.svg)](https://pypi.org/project/translate-api/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/translate-api.svg)](https://pypi.org/project/translate-api/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-forcekeys.com-blue.svg)](https://translate.forcekeys.com/docs)
+[![Documentation](https://img.shields.io/badge/docs-deeptranslate.online-blue.svg)](https://deeptranslate.online/docs)
 
 Official Python client library for the TranslateAPI translation service. Translate text, documents, and images between 70+ languages with a simple, intuitive interface.
 
@@ -36,7 +36,7 @@ pip install -e .
 
 ### 1. Get Your API Key
 
-First, sign up at [translate.forcekeys.com](https://translate.forcekeys.com) to get your free API key.
+First, sign up at [deeptranslate.online](https://deeptranslate.online) to get your free API key.
 
 ### 2. Basic Usage
 
@@ -203,7 +203,7 @@ european_languages = [lang for lang in languages.languages if lang.region == "Eu
 # For development or custom deployments
 api = TranslateAPI(
     api_key="your_api_key",
-    base_url="https://api.translate.forcekeys.com/api/v1",
+     base_url="https://api.deeptranslate.online/api/v1",
     timeout=30,  # Request timeout in seconds
     retries=3    # Number of retry attempts
 )
@@ -246,7 +246,7 @@ except Exception as e:
 ### TranslateAPI Class
 
 ```python
-TranslateAPI(api_key, base_url="https://api.translate.forcekeys.com/api/v1", timeout=30, retries=3)
+TranslateAPI(api_key, base_url="https://api.deeptranslate.online/api/v1", timeout=30, retries=3)
 ```
 
 #### Methods
@@ -337,9 +337,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-- **Documentation**: [translate.forcekeys.com/docs](https://translate.forcekeys.com/docs)
+- **Documentation**: [deeptranslate.online/docs](https://deeptranslate.online/docs)
 - **Issues**: [GitHub Issues](https://github.com/forcekeys/translate-api-python/issues)
-- **Email**: support@forcekeys.com
+- **Email**: support@deeptranslate.online
 - **Discord**: [Join our Discord](https://discord.gg/forcekeys)
 
 ## License
