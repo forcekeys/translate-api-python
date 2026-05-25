@@ -13,7 +13,7 @@ from enum import Enum
 import requests
 from requests.exceptions import RequestException, Timeout, HTTPError
 
-BASE_URL = "https://api.deeptranslate.online/api/v1"
+BASE_URL = "https://api.translate.forcekeys.com/api/v1"
 DEFAULT_TIMEOUT = 30
 DEFAULT_RETRIES = 3
 
